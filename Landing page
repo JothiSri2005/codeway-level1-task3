@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Landing Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #007bff; /* Blue background */
+            color: #090000;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        /* Button Styles */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color:rgb(236, 83, 134);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color:rgb(236, 83, 134);
+        }
+        
+        /* Header Section Styles */
+        .header {
+            background-size: cover;
+            background-position: center;
+            padding: 200px 0;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        
+        /* Product Section Styles */
+        .product-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .product-section h2 {
+            margin-bottom: 30px;
+        }
+        
+        .product {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 20px;
+            max-width: 300px;
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .product img:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Testimonial Section Styles */
+        .testimonial {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .testimonial-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #slogan {
+    background-color:  #007bff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 36px;
+    font-style: oblique;
+    color: gold; /* Blue color */
+}
+        /* Footer Section Styles */
+        .footer {
+            background-color: #ee5fab;
+            color: #0f0202;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="header" style="background-image:url('pharmacy-foreground-with-counter-blurred-backdrop-medicine-shelves-emphasizing-recycled-plastic-bottle-usage_91128-3490.avif');">
+    <div class="container">
+        <h1>Welcome to Our Pharmacy</h1>
+        <p>Providing quality healthcare services for you and your family.</p>
+        <a href="#about" class="btn">About Us</a>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="product-section">
+    <div class="container">
+        <h2>About Us</h2>
+        <div class="product">
+            <img src="psg-member-2022-2.jpg" alt="Pharmacy Interior">
+            <p>Welcome to our pharmacy! We are dedicated to providing high-quality medications and exceptional customer service to our community.</p>
+            <a href="#services" class="btn">Our Services</a>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="product-section">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="product">
+            <img src="Untitled design.png" alt="Medications">
+            <p>From prescription refills to consultations with pharmacists, we have you covered.</p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="product-section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="product">
+            <img src="page_contact-us_jhoots_full.png" alt="Contact Information">
+            <p>If you have any questions or need assistance, please don't hesitate to contact us.</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: info@pharmacy.com</p>
+        </div>
+    </div>
+</section>
+<section id="slogan">
+  <div class="container">
+      <h2 class="slogan">
+        "Our pharmacy is your trusted source for quality medications."</h2>
+  </div>
+</section>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Pharmacy. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
